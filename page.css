@@ -1,0 +1,48 @@
+body{
+    border:3px black solid;
+    padding: 50px;
+    background-color: default;
+    background-image: url(images/Limitado.jpg);
+}
+.images{
+    padding: 9px;
+    border: black solid;
+}
+img{
+    border-radius: 5%;
+}
+h2{
+    text-align: center;
+}
+a{
+    text-align: center;
+}
+.projects{
+    width: 70%;
+    background: white;
+    margin: 23px auto;
+    overflow: hidden;
+    border: solid;
+    padding: 10px;
+
+}
+.projects ul{
+    padding: 0px;
+    border: black solid auto;
+}
+.projects ul li{
+    margin:  42px 42px 0px 54px;
+    height: 250px;
+    list-style: none;
+    float: left;
+    border: solid;
+    width:20%;
+    background: whiteSmoke;
+
+}
+.exprience{
+    border:4px  white solid;
+    padding: 10px;
+    margin: 0px;
+ 
+}

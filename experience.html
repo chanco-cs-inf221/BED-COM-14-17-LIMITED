@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Project Form</title>
+        <!-- Include CSS here-->
+        <link rel="stylesheet" type="text/css" href="form.CSS"/>
+        <!--Include JS below here-->
+        <script src="form.JS" type="text/jacvascript" lang="javascript"></script>
+
+    <!--Include-->
+
+    </head>
+    <body>
+        <div class="container">
+            <div class="section" style="width: 80%">
+                <div class="main">
+                    <h2>Project Form</h2>
+                    <form action="#" method="post" name="form_name" id="form_id" class="form_class">
+                    <label>Project Name :</label>
+                    <input type="text" name="name" id="name" placeholder="Name" />
+                    <label>Project Description :</label>
+                    <input type="text" name="email" id="email" placeholder="New" />
+                    <label>Organization Name :</label>
+                    <input type="text" name="Date" id="Date" placeholder="New" />
+                    <label>End Date :</label>
+                    <input type="text" name="Date" id="Date" placeholder="New" />
+                    
+                    <input type="button" id="btn_id" value="Submit"/>
+
+                    <button onclick = "loadAndListAllUsers()">List Users</button>
+                </form>
+
+                </div>
+
+            </div>
+            <div class="section" style="width: 80%; margin-top: 5%;">
+                <h2>
+                    Register Users
+                    <span>
+                            <button>List Users</button>
+                            <button>Clear</button>
+                            </span>
+                            </h2>
+                            <ul id="list_of_users">
+                                <!--first item is not coming from the localStorage: note-->
+                            <li>Limited Kamnyoghe</li>
+                        </ul>
+                </div>                         
+            </div>
+            <p>
+                Go to 
+                <a href="MY WEBSITE.html" title="MY WEBSITE">Previous Page</a>
+            </p>
+             
+    </body>
+</html>
