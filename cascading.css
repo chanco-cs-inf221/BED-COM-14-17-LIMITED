@@ -18,8 +18,8 @@ a{
     text-align: center;
 }
 .projects{
-    width: 70%;
-    background: white;
+    width: auto;
+    background: wheat;
     margin: 23px auto;
     overflow: hidden;
     border: solid;
@@ -32,11 +32,11 @@ a{
 }
 .projects ul li{
     margin:  42px 42px 0px 54px;
-    height: 250px;
+    height: auto;
     list-style: none;
     float: left;
     border: solid;
-    width:20%;
+    width: 20%;
     background: whitesmoke;
 
 }

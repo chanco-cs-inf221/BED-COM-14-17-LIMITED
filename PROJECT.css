@@ -1,0 +1,81 @@
+/* Below line is used for online Google font */
+@import url(http://fonts.googleapis.com/css?family=Raleway);
+h2{
+    background-color: #FEFFED;
+    padding: 30px 35px;
+    margin: -10px -50px;
+    text-align:center;
+    border-radius: 10px 10px 0 0;
+}
+
+
+body{
+    background-color: rgb(240, 203, 225);
+}
+hr{
+    margin: 10px -50px;
+    border: 10px;
+    border-top: 20px dotted rgb(218, 21, 21);
+    margin-bottom: 40px;
+}
+div.container{
+    color: blueviolet;
+    width: 70%;
+    /* height: 610px; */
+    margin:40px auto;
+    font-family: 'Raleway', sans-serif;
+}
+div.main{
+    width: '100%';
+    padding: 10px 50px 10px;
+    border: 2px solid blue;
+    border-radius: 10px;
+    font-family: 'Raleway';
+    margin-top:60px;
+}
+input[type=text]{
+    width: 100%;
+    height: 25px;
+    padding: 5px;
+    margin-bottom: 25px;
+    margin-top: 5px;
+    border: 2px dotted rgb(35, 214, 18);
+    color: #c50e0e;
+    font-size: 20px;
+    border-radius: 5px;
+}
+label{
+    color: #111311;
+    text-shadow: 0 1px 0 rgb(255, 255, 255);
+    font-size: 14px;
+    font-weight: bold;
+}
+#btn_id,#btn_name,#btn_class,#btn_tag{
+    font-size: 16px;
+    background: linear-gradient(#85868d 5%, #808394 100%);
+    border: 1px solid #606168;
+    color: rgb(239, 243, 245);
+    font-weight: bold;
+    cursor: pointer;
+    width: 47.5%;
+    border-radius: 5px;
+    margin-bottom:10px;
+    padding: 7px 0;
+    
+}
+#btn_id:hover,#btn_name:hover,#btn_class:hover,#btn_tag:hover{
+    background: linear-gradient(#6177f1 5%, #6177f1 100%);
+}
+#btn_name,#btn_tag{
+    margin-left: 10px;
+    
+}
+
+/* MEDIA QUERIES*/
+
+@media screen and (max-width: 350px){
+    input{
+        width:auto;
+
+    }
+}

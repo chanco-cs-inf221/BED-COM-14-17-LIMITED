@@ -1,0 +1,74 @@
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <style type="text/css">
+            body {
+                background-color: rgb(193, 231, 21);
+            }    
+        </style>
+        <meta name="viewport" content="wididth = device-width">
+        <title>LEAGUE</title>
+        <!-- Include CSS File Here -->
+        <link rel="stylesheet" href="PROJECT.css"/>
+        <!-- Include JS File Here -->
+        <script src="PROJECT.js" type="text/javascript" lang="javascript"></script>
+    </head>
+
+    <body background-image = "images/ball.jpg" >
+        
+        <div class="container">
+
+            <div class="section" style="width: 75%">
+                <div class="main">
+                    <h2><em>REGISTER YOUR FOOTBALL CLUB BELOW</em> </h3>
+                        <a href="Go here"> <img src="images/php.jpg"  height="90" /> </a>
+                        <a href="Go here"> <img src="images/ball.jpg" height="90" /> </a>
+                        <a href="Go here"> <img src="images/ball.jpg" height="90" /> </a>
+                        <a href="Go here"> <img src="images/ball.jpg" height="90" /> </a>
+                        <a href="Go here"> <img src="images/ball.jpg" height="90" /> </a>
+                        <a href="Go here"> <img src="images/php.jpg" height="90" /> </a>
+                        <embed type="video/mp4" src="images/video.mp4" width="300" height="200">
+
+                        
+
+                        <hr>
+                    <h2><u>Enter a footbal club to store in a database:</u></h2>
+                    <form action="#" method="post" league="form_name" id="form_id" class="form_class">
+                        <label><em>LEAGUE:</em></label>
+                        <input type="text" league="league" id="league" placeholder="Enter league name" />
+                        <label><em>NAME:</em></label>
+                        <input type="text" league="name" id="name" placeholder="Club name here" />
+                        <label><em>NICKNAME:</em></label>
+                        <input type="text" league="nickName" id="nickName" placeholder="Club nickname here" />
+                        <label><em>JERSEY COLOUR:</em></label>
+                        <input type="text" league="colour" id="colour" placeholder="Jersey colour here" />
+                        <input type="button" league="submit_id" id="btn_id" value="Add Club" onclick="register()"/>
+                    </form>
+                </div>
+            </div>
+
+            <div class="section" style="width: auto; margin-top: 2%;">
+                <h2>
+                    ALL CLUBS
+                    <span>
+                        <button onclick="loadAndListAllUsers()">List Teams</button>
+                        <button onclick="clearAll()">Clear</button>
+                        <button onclick="loadAndEditAllUsers()">Edit</button>
+
+                    </span>
+                </h2>
+                <a href="MY WEBSITE.html"><ol id="list_of_users">
+                    <!--first item is not coming from the localStorage: note-->
+                    <button onclick="loadAndEditAllUsers()">Edit Teams</button>
+                    <li>Premier ... Arsernal ... The Gunners ... Red and White </li> 
+                </ol></a>
+            </div>
+
+        </div>
+        <button type="button"
+        onclick="document.getElementById('demo').innerHTML = Date()">
+        Display current Date and Time.</button>
+        <p id="demo">Click above</p>
+    </body>
+</html>
